@@ -1,6 +1,6 @@
-import React from 'react';
-import './style.css';
-import CardItem from '../CardItem';
+import React from "react";
+import "./style.css";
+import CardItem from "../CardItem";
 import image9 from "../../images/img-9.jpg";
 import image2 from "../../images/img-2.jpg";
 import image3 from "../../images/img-3.jpg";
@@ -9,42 +9,37 @@ import image8 from "../../images/img-8.jpg";
 
 function Cards() {
   return (
-    <div className='cards'>
+    <div className="cards">
       <h1>Check out these EPIC Destinations!</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+      <div className="cards__container">
+        <div className="cards__wrapper">
+          <ul className="cards__items">
             <CardItem
               src={image9}
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              text="Explore the hidden waterfall deep inside the Amazon Jungle"
+              path="/services"
             />
             <CardItem
               src={image2}
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              text="Travel through the Islands of Bali in a Private Cruise"
+              path="/services"
             />
           </ul>
-          <ul className='cards__items'>
+          <ul className="cards__items">
             <CardItem
               src={image3}
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
+              path="/services"
             />
             <CardItem
               src={image4}
-              text='Experience Football on Top of the Himalayan Mountains'
-              label='Adventure'
-              path='/products'
+              text="Experience Football on Top of the Himalayan Mountains"
+              path="/products"
             />
             <CardItem
               src={image8}
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              text="Ride through the Sahara Desert on a guided camel tour"
+              path="/sign-up"
             />
           </ul>
         </div>

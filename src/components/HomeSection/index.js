@@ -5,10 +5,10 @@ import './style.css';
 
 function HomeSection() {
   return (
-    <div className='hero-container'>
+    <div className='home-container'>
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
-      <div className='hero-btns'>
+      <div className='home-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
@@ -20,7 +20,6 @@ function HomeSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
         >
           WATCH TRAILER <i className='far fa-play-circle' />
         </Button>
